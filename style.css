@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left bottom, lightgreen, lightblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
+.heading{
+    font-size: 45px;
+    text-align: center;
+}
+
+.input{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 10px;
+    outline: none;
+    border: none;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-group > button{
+    background: rgb(37, 226, 37);
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.btn-group > button:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all ;
+    -moz-transition: all ;
+    -ms-transition: all ;
+    -o-transition: all ;
+}
+
+#result{
+    font-size: 20px;
+    font-weight: 500;
+}
